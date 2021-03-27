@@ -11,7 +11,10 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(#615dad, #ffc8da);
   color: #ffffff;
+<<<<<<< HEAD
   font-family: Arial, 'sans-serif';
+=======
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
@@ -35,8 +38,13 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 48px;
   font-weight: normal;
+=======
+  font-size: 38px;
+  font-weight: 300;
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
   font-family: 'Lobster', sans-serif;
   text-align: center;
   margin-top: 10px;
@@ -88,9 +96,13 @@ a {
 }
 
 .pravidla__text {
+<<<<<<< HEAD
   padding: 25px;
   line-height: 2;
   font-size: 18px;
+=======
+  padding: 30px;
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
 }
 
 .kolecko,
@@ -112,14 +124,21 @@ a {
 .pravidla__obrazky {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   padding: 0 20px 20px 20px;
   font-size: 12px;
   font-style: italic;
+=======
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
 }
 
 figure {
   text-align: center;
+<<<<<<< HEAD
   padding: 20px;
+=======
+  padding: 15px;
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
   margin: 0;
 }
 
@@ -131,12 +150,17 @@ figure img {
 
 @media (min-width: 540px) {
   .pravidla__obrazky {
+<<<<<<< HEAD
     display: flex;
+=======
+    display:flex;
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
   figure {
+<<<<<<< HEAD
     width: 50%;
   }
 }
@@ -148,3 +172,24 @@ figure img {
     max-width: 1400px;
   }
 }
+=======
+    width: 45%;
+  }
+} 
+/* stylování pro destkop*/
+
+@media (min-width: 960px) {
+  .pravidla__obrazky {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+/*
+display:flex;
+flex-wrap: wrap;
+justify-content: center; - muze vyresit mezeru
+>>>>>>> e2df44a31f31929b977ddf3a9bc318aa251cc7cf
