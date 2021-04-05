@@ -64,7 +64,7 @@ h1 {
 
 .tlacitko-pravidla {
   background-color: #1fcca4;
-  border-bottom: 2px solid #283e50;
+  border-bottom: 1px solid #283e50;
 }
 
 .tlacitko-hrat {
@@ -107,7 +107,7 @@ h1 {
 
 .tlacitko-uvodni {
   background-color: #1fcca4;
-  border-bottom: 1px solid #283e50;
+  border-bottom: 2px solid #283e50;
 }
 
 .tlacitko-uvodni:hover {
