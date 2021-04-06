@@ -220,7 +220,7 @@ figure img {
 button {
   border: 1.5px solid black;
   background-color: rgb(255, 177, 177);
-  width: 10%;
+  flex-basis: 10%;
   opacity: 0.5;
 }
 
