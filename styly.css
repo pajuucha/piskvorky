@@ -178,7 +178,7 @@ figure img {
 
 .radek__vlevo--nadpis {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right: 5px;
   font-weight: 600;
 }
@@ -219,13 +219,30 @@ figure img {
 
 button {
   border: 1.5px solid black;
-  background-color: rgb(255, 177, 177);
+  background-color: rgb(193, 187, 245);
   flex-basis: 10%;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 button:hover,
 button:focus {
-  background-color: rgb(255, 197, 197);
-  opacity: 0.5;
+  background-color: rgb(220, 220, 255);
+  opacity: 0.7;
+}
+
+/* ---------------- stylování 4. úkol -------------------- */
+.board__field--circle {
+  background-image: url('obrazky/circle.svg');
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.board__field--cross {
+  background-image: url('obrazky/cross.svg');
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
 }
